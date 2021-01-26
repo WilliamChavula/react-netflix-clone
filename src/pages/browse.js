@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowseContainer } from '../containers/Browse';
 import { useContent } from '../hooks';
 import selectionFilter from '../utils/selection-filter';
 
@@ -9,7 +10,6 @@ export default function Browse() {
 
     // get genre slides from films and series
     const slides = selectionFilter({ series, films });
-    console.log(slides);
 
-    return <div>Browse</div>;
+    return <BrowseContainer slides={slides} />;
 }
