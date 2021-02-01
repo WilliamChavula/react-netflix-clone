@@ -7,3 +7,5 @@ export { default as OptForm } from './opt-form';
 export { default as Feature } from './Feature';
 export { default as Form } from './form';
 export { default as Loading } from './Loading';
+export { default as Card } from './card';
+export { default as Player } from './player';
